@@ -1,16 +1,22 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
-  "category": "security",
-  "tags": ["text", "lines", "duplicates"],
-  "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "id": "gridreceipt",
+  "title": "Grid Receipt",
+  "description": "Track Ontario electricity demand forecasts against subsequently reported hourly demand.",
+  "category": "explorers",
+  "tags": [
+    "electricity",
+    "Ontario",
+    "IESO",
+    "demand",
+    "forecasts"
+  ],
+  "icon": "history",
+  "url": "/gridreceipt/",
+  "source": "https://github.com/jsdyer/gridreceipt",
   "hosting": "project",
   "access": "browser",
   "data_info": {
-    "mode": "local",
-    "detail": "The browser reads the text you paste and compares its lines."
+    "mode": "snapshot",
+    "detail": "IESO hourly average demand forecasts are compared with subsequently reported Ontario electricity demand."
   }
 }
