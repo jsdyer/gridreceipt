@@ -17,6 +17,7 @@
   "access": "browser",
   "data_info": {
     "mode": "snapshot",
-    "detail": "IESO hourly average demand forecasts are compared with subsequently reported Ontario electricity demand."
+    "detail": "IESO hourly average demand forecasts are compared with subsequently reported Ontario electricity demand.",
+    "cadence": "Every 3 hours"
   }
 }
